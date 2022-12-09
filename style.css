@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+html, body {
+    overflow: visible;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    
+}
+/* опасно, я переопределяю марджин бутстрапа + это делаю в body. Легкий но чреватый последствиями ход (какими пока не узнал) */
+#body {
+    padding-left: 10%;
+    padding-right: 12%;
+}
+
+.linkk-dark {
+    color: pink;
+}
+
+.my-list {
+    color: rgb(255, 255, 255);
+    background-color: rgb(94, 97, 100);
+    border: 2px solid #cdaa11;
+}
+
+.list-group-item.active {
+    border-color: #cdaa11;
+}
+
+#bracket {
+    color: blue;
+}
+
+.bracket {
+    color: blue;
+}
+
+/* #check-div {
+    position: absolute;
+    background-color: rgb(106, 121, 121); 
+}   */
+
+#ed {
+    margin-bottom: 0;
+}
+
+li {
+    list-style-type:"– ";
+    padding-left: 2%;
+}
+
+/* li::marker {
+    color: var(--marker-color);
+} */
+
+.main {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#par {
+    padding-top: 20%;
+}
+
+.line2-darkmode {
+    background-color: #ffffff !important;
+}
+
+#one {
+    position: relative;
+}
+
+/* dark theme: */
+
+.darkmode {
+    background-color: rgb(35, 35, 35);
+    color: antiquewhite;
+}
+
+.line-darkmode {
+    background-color: #cdaa11 !important;
+}
+
+.btn-darkmode {
+    background-color: aliceblue;
+}
+
+
+
+
+
+  
+  
